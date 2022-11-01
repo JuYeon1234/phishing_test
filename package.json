@@ -1,0 +1,24 @@
+{
+  "name": "phishing_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuYeon1234/phishing_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuYeon1234/phishing_test/issues"
+  },
+  "homepage": "https://github.com/JuYeon1234/phishing_test#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "expless": "^0.1.91",
+    "express": "^4.18.2"
+  }
+}
