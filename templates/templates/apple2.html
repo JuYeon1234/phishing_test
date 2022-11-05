@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<style>
+		.out{
+			width:100%;
+			height:100%;
+		}
+		.in{
+			margin-left:40%;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UV-Compatible" content="ie=edge">
+	<title>계정정보</title>
+</head>
+<body>
+	<div class = "out">
+		<div class = "in"  style = "color = grey;">
+			<form action="/result" method = "GET">
+				<h5>아이디</h5>
+				<input type = "text" name = "id"></br>
+				<h5>비밀번호</h5>
+				<input type = "password" name = "pw"></br>
+				<h5>생년월일</h5>
+				<input type = "number" placeholder="년(4자)" name = "birth_year"></br>
+				<select name = "birth_month">
+					<option value="">월</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				</select>
+
+				<input type = "number" placeholder="일" name = "birth_day"></br>
+				<h5>성별</h5>
+				<select name = "gender">
+					<option value = "">성별</option>
+					<option value = "여">여</option>
+					<option value = "남">남</option>
+				</select>
+				<h5>본인 확인 이메일</h5>
+				<input type = "text" placeholder ="선택입력" name = "emailaddr"></br></br>
+				<button>입력</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
